@@ -23,7 +23,7 @@ Enhance the existing EEG Data Collection Guide by adding new features aimed at i
 - **UI/UX Integration Team**
   - Handles the implementation of new features (described below) and communication with other teams.
   - Team Lead: Zarqa Fathima
-  - Members: Please include all names working on this project
+  - Members: Bryan Doan, Karan Dubey, Jose Martinez, Phuc Dinh, Suhani Goswami
 
 - **Real Time Signals Team**
   - Implements fucntionality for signal acquisitiion and approriate data storage. Communicate with other teams.
