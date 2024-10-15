@@ -1,4 +1,4 @@
-# EEG Data Collection Guide Enhancement
+# EEG Data Collection GUI Enhancement
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-Enhance the existing EEG Data Collection Guide by adding new features aimed at improving usability, data management, and user support. This project will involve collaboration between the **Experimentation Team** of R&D the **Real Time Signals Team** and the **UI/UX Integration Team** of Software to ensure the successful integration of these features over the next week and a half.
+Enhance the existing EEG Data Collection GUI by adding new features aimed at improving usability, data management, and user support. This project will involve collaboration between the **Experimentation Team** of R&D the **Real Time Signals Team** and the **UI/UX Integration Team** of Software to ensure the successful integration of these features over the next week and a half.
 
 ## Teams Involved
 
@@ -38,6 +38,18 @@ Enhance the existing EEG Data Collection Guide by adding new features aimed at i
 
 ### 2. Signal Acquisition
 - **Description:** Implement code to acquire data in real time. Recordings should be labeled with direction, name, session number, and questionaire responses. Data should be saved after each 7 second recording.
+- **Features:**
+  * Create a function to initialize board using BrainFlow
+  * After the focus period (Indicated by plus sign in Center) a function should be called that starts data collection. 
+    * Data collection runs for 7 seconds in total
+    * Reference [BrainFlow Documentation](https://brainflow.readthedocs.io/en/stable/) for support
+  * After data collection period a function should be called that grabs the last 7 seconds of data
+    * Brainflow has a function for this
+    * Only save EEG channels
+  * Data saving
+    * Decide on a data type that allows storage of the numpy EEG file, the label, the questionaire responses, session number, and patient name
+    * Decide on data naming structure to allow for easy identification of individual recordings
+      * Create formal documentation for this and send it to your team lead.
 - **Assigned Team:** RT Signals Team (Technical Integration)
 
 ### 3. Data Saving Pipeline
