@@ -28,7 +28,7 @@ Enhance the existing EEG Data Collection Guide by adding new features aimed at i
 - **Real Time Signals Team**
   - Implements fucntionality for signal acquisitiion and approriate data storage. Communicate with other teams.
   - Team Lead: Maddox Fletcher
-  - Members: Please include all names working on this project
+  - Members: Amrut Pennaka, Hibba Mansoor, Maddox Fletcher, Samarth Rao, Sruthi Chintaparthi
 
 ## Features to be Added
 
